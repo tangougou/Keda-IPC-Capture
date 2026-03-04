@@ -5,7 +5,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 # -------- 配置区域 --------
 USERNAME = "admin"
 PASSWORD = "摄像机密码"
-INPUT_FILE = "KEDAIPC.txt"
+INPUT_FILE = "KedacomIPC.txt"
 SAVE_DIR = "snapshots"
 MAX_THREADS = 32
 TIMEOUT = 30  # FFmpeg 单个摄像头截图超时时间（秒）
@@ -93,3 +93,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
